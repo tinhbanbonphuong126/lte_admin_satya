@@ -183,6 +183,9 @@ return [
         Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //Generate seeding from exits database
+        Orangehill\Iseed\IseedServiceProvider::class
+
     ],
 
     /*

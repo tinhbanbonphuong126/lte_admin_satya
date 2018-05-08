@@ -16,7 +16,14 @@
 
 //All route for frontend
 
+use App\Region;
+
 Route::get('/', function () {
+
+    $regions = Region::query()->get();
+
+    dd($regions);
+
     return view('welcome');
 });
 
